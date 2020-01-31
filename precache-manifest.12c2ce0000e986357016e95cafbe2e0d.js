@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "7205c4d7b82cd384fdf7dd8586c2fe41",
+    "revision": "de48617654c0c0e4478cc1081c946ca0",
     "url": "/arktyka-bochnia/index.html"
   },
   {
-    "revision": "956b633873017577d4d4",
+    "revision": "636e0b5f120ebe4d3f3e",
     "url": "/arktyka-bochnia/static/css/main.13aa0e5b.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/arktyka-bochnia/static/js/2.86bc10b9.chunk.js.LICENSE"
   },
   {
-    "revision": "956b633873017577d4d4",
-    "url": "/arktyka-bochnia/static/js/main.02f6e0db.chunk.js"
+    "revision": "636e0b5f120ebe4d3f3e",
+    "url": "/arktyka-bochnia/static/js/main.4b3db199.chunk.js"
   },
   {
     "revision": "d551b51a04d292cea722",
