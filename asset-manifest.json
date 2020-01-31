@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/arktyka-bochnia/static/css/main.13aa0e5b.chunk.css",
+    "main.js": "/arktyka-bochnia/static/js/main.02f6e0db.chunk.js",
+    "main.js.map": "/arktyka-bochnia/static/js/main.02f6e0db.chunk.js.map",
+    "runtime-main.js": "/arktyka-bochnia/static/js/runtime-main.5ba665a7.js",
+    "runtime-main.js.map": "/arktyka-bochnia/static/js/runtime-main.5ba665a7.js.map",
+    "static/js/2.86bc10b9.chunk.js": "/arktyka-bochnia/static/js/2.86bc10b9.chunk.js",
+    "static/js/2.86bc10b9.chunk.js.map": "/arktyka-bochnia/static/js/2.86bc10b9.chunk.js.map",
+    "index.html": "/arktyka-bochnia/index.html",
+    "precache-manifest.6b0901a9ea5ca3b9dd8cd3566bb12b61.js": "/arktyka-bochnia/precache-manifest.6b0901a9ea5ca3b9dd8cd3566bb12b61.js",
+    "service-worker.js": "/arktyka-bochnia/service-worker.js",
+    "static/css/main.13aa0e5b.chunk.css.map": "/arktyka-bochnia/static/css/main.13aa0e5b.chunk.css.map",
+    "static/js/2.86bc10b9.chunk.js.LICENSE": "/arktyka-bochnia/static/js/2.86bc10b9.chunk.js.LICENSE",
+    "static/media/Exo-Black.ttf": "/arktyka-bochnia/static/media/Exo-Black.00564525.ttf",
+    "static/media/Exo-Bold.ttf": "/arktyka-bochnia/static/media/Exo-Bold.fd0fb607.ttf",
+    "static/media/Exo-Light.ttf": "/arktyka-bochnia/static/media/Exo-Light.300557d5.ttf",
+    "static/media/Exo-Regular.ttf": "/arktyka-bochnia/static/media/Exo-Regular.8bee4f80.ttf",
+    "static/media/index.css": "/arktyka-bochnia/static/media/sniezynki.4e7b6d4d.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.5ba665a7.js",
+    "static/js/2.86bc10b9.chunk.js",
+    "static/css/main.13aa0e5b.chunk.css",
+    "static/js/main.02f6e0db.chunk.js"
+  ]
+}
