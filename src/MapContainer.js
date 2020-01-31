@@ -62,8 +62,8 @@ function MapContainer(props) {
           color='blue'
           title={'ARKTYKA'}
           
-          icon= {'http://chart.apis.google.com/chart?chst=d_map_pin_letter&chld=%E2%80%A2|ddd'}
-
+          icon= {'https://raw.githubusercontent.com/natalianowak/arktyka-bochnia/master/public/arktyka-favicon.png'}
+//https://raw.githubusercontent.com/natalianowak/arktyka-bochnia/master/public/arktyka-favicon.png
           // %PUBLIC_URL%/arktyka-favicon.jpg
           //http://chart.apis.google.com/chart?chst=d_map_pin_letter&chld=%E2%80%A2|ddd
           // https://natalianowak.github.io/portfolioN/CV%20-%20Natalia%20Nowak%20-%20ANG%20-.pdf
