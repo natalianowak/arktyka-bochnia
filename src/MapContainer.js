@@ -62,7 +62,7 @@ function MapContainer(props) {
           color='blue'
           title={'ARKTYKA'}
           
-          icon= {'https://raw.githubusercontent.com/natalianowak/arktyka-bochnia/master/public/arktyka-favicon.png'}
+          icon= {'https://raw.githubusercontent.com/natalianowak/arktyka-bochnia/master/public/arktyka-small.png'}
 //https://raw.githubusercontent.com/natalianowak/arktyka-bochnia/master/public/arktyka-favicon.png
           // %PUBLIC_URL%/arktyka-favicon.jpg
           //http://chart.apis.google.com/chart?chst=d_map_pin_letter&chld=%E2%80%A2|ddd
