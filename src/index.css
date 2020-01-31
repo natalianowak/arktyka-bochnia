@@ -5,9 +5,612 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  max-width: 1500px;
+  margin: 0 auto;
 }
+html {
+  scroll-behavior: smooth;
+}
+
+@font-face {
+  font-family: 'Exo Regular';
+  src: local('Exo Regular'), url(./fonts/Exo-Regular.ttf) format('truetype');
+}
+
+@font-face {
+  font-family: 'Exo Black';
+  src: local('Exo Black'), url(./fonts/Exo-Black.ttf) format('truetype');
+}
+
+@font-face {
+  font-family: 'Exo Bold';
+  src: local('Exo Bold'), url(./fonts/Exo-Bold.ttf) format('truetype');
+}
+
+@font-face {
+  font-family: 'Exo Light';
+  src: local('Exo Light'), url(./fonts/Exo-Light.ttf) format('truetype');
+}
+
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+.mountain .nav {
+  height: 168px;
+  width: 100%;
+  padding: 0;
+  font-family: 'Exo Light';
+  background-image: url("menu-tlo.png");
+  background-size: cover;
+  z-index: 2;
+}
+
+.mountain .nav ul {
+  padding-top: 20px;
+  width: auto;
+  display: flex;
+  margin: 0 auto;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.mountain .nav ul li {
+  color: #088cc9;
+  border: none;
+  font-size: 16px;
+  font-weight: bold;
+  display: table-cell;
+  vertical-align: middle;
+}
+
+.mountain .nav ul li a {
+  color: #088cc9;
+  text-decoration: none;
+  transition: all;
+  width: 100px;
+  display: block;
+  transition: all 200ms ease-in;
+    transform: scale(1);
+}
+
+.mountain .nav ul li a:hover {
+   font-family: 'Exo Bold';
+   transform: scale(1.05);
+}
+
+.mountain {
+  display: block;
+  margin: 0 auto;
+  background-image: url("lodowiec.png");
+  z-index: 1;
+  height: auto;
+  background-size: cover;
+}
+
+.mountain h1 {
+  color: #cd572f;
+  font-family: 'Exo Bold';
+}
+
+.mountain p {
+  font-family: 'Exo Light';
+  color: white;
+}
+
+.about {
+  height: auto;
+  padding-top: 62px;
+  padding-bottom: 100px;
+}
+.textCenterFlex{
+  display:flex;
+  margin:0 auto;
+  justify-content:center;
+}
+
+.aboutList {
+  list-style: none;
+  padding-left: 0;
+}
+
+.aboutList li {
+  color: white;
+  font-family: 'Exo Light';
+}
+
+.aboutList li::before {
+  content: "\2022";
+  /* Add content: \2022 is the CSS Code/unicode for a bullet */
+  color: #cd572f;
+  /* Change the color */
+  font-weight: bold;
+  /* If you want it to be bold */
+  display: inline-block;
+  /* Needed to add space between the bullet and the text */
+  width: 1em;
+  /* Also needed for space (tweak if needed) */
+  margin-left: -1em;
+  /* Also needed for space (tweak if needed) */
+}
+
+.offer {
+  margin: 0 auto;
+  height: auto;
+  background-color: #8ca4b5;
+  font-family: 'Exo Light';
+}
+
+.offer h1 {
+  color: #23538a;
+  font-family: 'Exo Bold';
+}
+
+.offer p {
+  color: white;
+}
+
+.offerBigBox {
+  display: flex;
+  justify-content: start;
+}
+
+.offerBox {
+  padding: 35px;
+  margin:35px;
+  width: 50%;
+  background-color: #9db1c0;
+  display: flex;
+  justify-content: baseline;
+  text-transform: uppercase;
+}
+
+.offerBox img {
+  transition: all;
+  width: 50px;
+  height: 50px;
+  padding-right: 20px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.offerBox p{
+  margin: 0 auto;
+  vertical-align: middle;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.certificate {
+  height: auto;
+  margin: 0 auto;
+  background-image: url("sniezynki.png");
+  background-size: cover;
+  color: #cd572f;
+}
+
+.certificate h1 {
+  font-family: 'Exo Bold';
+}
+
+.certificate ul li {
+  margin-bottom: 6px;
+}
+
+.contact {
+  height: 400px;
+  margin: 0 auto;
+  background-color: #cd572f;
+  color: white;
+  font-family: 'Exo Light';
+}
+
+.contactFlex {
+  display: flex;
+}
+
+.contact h1 {
+  padding-bottom: 20px;
+  font-family: 'Exo Bold';
+}
+
+.contactLeft {
+  float: left;
+  width: 50%;
+  height: auto;
+}
+
+.contactLeft h3 {
+  color: white;
+  text-align: left;
+  margin-top: 0;
+  margin-bottom: 10px;
+}
+
+.contactIcon {
+  width: 25px;
+  padding-right: 15px;
+}
+
+.contactRight {
+  height: auto;
+  font-family: 'Exo Light';
+  float: right;
+  width: 50%;
+}
+
+form {
+  width: 80%;
+  float: right;
+  padding-top: 5px;
+}
+
+.contactRight input {
+  border: none;
+  border-radius: 0px;
+  background-color: #d87c5d;
+  width: 100%;
+  display: block;
+  height: 35px;
+  margin-bottom: 15px;
+  color: white;
+  font-family: 'Exo Light';
+}
+
+.contactRight button {
+  border: none;
+  border-radius: 0px;
+  background-color: #d87c5d;
+  color: white;
+  float: right;
+  padding-right: 15px;
+  padding-left: 15px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-family: 'Exo Light';
+}
+
+.contactRight textarea {
+  border: none;
+  border-radius: 0px;
+  background-color: #d87c5d;
+  width: 100%;
+  display: block;
+  height: 120px;
+  margin-bottom: 15px;
+  color: white;
+  font-family: 'Exo Light';
+}
+
+.contactRight ::placeholder {
+  color: white;
+  display: flex;
+  vertical-align: middle;
+  padding: 10px;
+  font-family: 'Exo Light';
+}
+
+.map {
+  display: block;
+  height: 300px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.mapContainer {
+  height: 300px !important;
+}
+
+.footer {
+  width: 100%;
+  height: 50px;
+  background-color: #23538a;
+  color: white;
+  text-align: left;
+  position: relative;
+  font-family: 'Exo Light';
+  font-size: 15px;
+}
+
+.footer p {
+  margin: 0 auto;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+}
+.footer a{
+  color: white;
+  text-decoration: none;
+}
+
+.boldText {
+  font-family: 'Exo Black';
+}
+
+.paddingClass {
+  padding-right: 250px;
+  padding-left: 250px;
+  padding-bottom: 100px;
+  padding-top: 100px;
+}
+
+.paddingRightAndLeft {
+  padding-right: 250px;
+  padding-left: 250px;
+}
+
+.hideOnDesktop {
+  display: none;
+}
+/* --------effects------- */
+.box {
+  position:relative;
+  vertical-align: middle;
+  transition: 0.5s;
+  /* cursor: pointer; */
+  border-left: 1px solid white; 
+  -webkit-transition:0.5s;
+}
+
+.box::before, .box::after {
+  width: 100%;
+  height:100%;
+  z-index: 3;
+  content:'';
+  position: absolute;
+  top:0;
+  left:0;
+  box-sizing: border-box;
+  -webkit-transform: scale(0);
+  transition: 0.5s;
+}
+
+.foo::before {
+  border-bottom: 3px solid #FFF;
+  border-left: 3px solid #FFF;
+  -webkit-transform-origin: 0 100%;
+}
+
+.foo::after {
+  border-top: 3px solid #FFF;
+  border-right: 3px solid #FFF;
+  -webkit-transform-origin: 100% 0%;
+}
+
+
+.bar::before {
+  border-bottom: 3px solid #FFF;
+  border-left: 3px solid #FFF;
+  -webkit-transform-origin: 100% 0%;
+}
+
+.bar::after {
+  border-top: 3px solid #FFF;
+  border-right: 3px solid #FFF;
+  -webkit-transform-origin: 0% 100%;
+}
+
+.box:hover::after, .box:hover::before {
+  -webkit-transform: scale(1);
+}
+/* --------------------------------- */
+
+/* ----------------------------- */
+
+@media only screen and (max-width: 1390px) {
+  .contactLeft {
+    width: 55%;
+  }
+
+  .contactRight {
+    width: 45%;
+  }
+}
+
+@media only screen and (max-width: 1250px) {
+  .mountain .nav {
+    background-size: initial;
+    height: auto;
+    padding-bottom: 20px;
+  }
+
+  .paddingClass {
+    padding-right: 180px;
+    padding-left: 180px;
+    padding-bottom: 100px;
+    padding-top: 100px;
+  }
+
+  .paddingRightAndLeft {
+    padding-right: 180px;
+    padding-left: 180px;
+  }
+}
+
+@media only screen and (max-width: 1175px) {
+  .mountain .nav {
+    background-size: initial;
+    height: auto;
+    padding-bottom: 20px;
+  }
+
+  .paddingClass {
+    padding-right: 150px;
+    padding-left: 150px;
+    padding-bottom: 80px;
+    padding-top: 80px;
+  }
+
+  .paddingRightAndLeft {
+    padding-right: 150px;
+    padding-left: 150px;
+  }
+}
+
+@media only screen and (max-width: 1115px) {
+  p{
+    font-size: 0.9em;
+  }
+  h3{
+    font-size: 1em;
+  }
+  .contact {
+    height: 670px;
+  }
+
+  .contactFlex {
+    display: block;
+  }
+
+  .contactLeft {
+    width: 100%;
+  }
+
+  .contactLeft h3 {
+    /* text-align: center; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .contactRight {
+    width: 100%;
+    padding-top: 30px;
+  }
+
+  form {
+    width: 100%;
+  }
+}
+
+@media only screen and (max-width: 1050px) {
+  .paddingClass {
+    padding-right: 130px;
+    padding-left: 130px;
+    padding-bottom: 70px;
+    padding-top: 70px;
+  }
+
+  .paddingRightAndLeft {
+    padding-right: 130px;
+    padding-left: 130px;
+  }
+}
+
+@media only screen and (max-width: 1000px) {
+  @keyframes appear {
+    0% {
+      opacity: 0;
+    }
+
+    100% {
+      opacity: 1;
+    }
+  }
+
+  @keyframes slideIn {
+    0% {
+      transform: translateX(-2%);
+    }
+
+    100% {
+      transform: translateX(0);
+    }
+  }
+
+  @keyframes shrink {
+    0% {
+      width: 95%;
+    }
+
+    100% {
+      width: 90%;
+    }
+  }
+
+  /* -----end of burger style----- */
+  .hideOnDesktop {
+    display: block
+  }
+  .hideOnMobile{
+    display: none;
+  }
+.offerBigBox{
+  display: block;
+}
+.offerBox{
+  margin: 35px auto;
+}
+.about {
+  padding-top: 180px;
+}
+}
+
+@media only screen and (max-width: 700px) {
+  .paddingClass {
+    padding-right: 100px;
+    padding-left: 100px;
+    padding-bottom: 50px;
+    padding-top: 50px;
+  }
+
+  .paddingRightAndLeft {
+    padding-right: 100px;
+    padding-left: 100px;
+  }
+  .offerBox{
+    width: auto;
+  }
+  .about{
+    /* padding-top: ; */
+    padding-bottom: 50px;
+  }
+  .contact{
+    height: 700px;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .paddingClass {
+    padding-right: 80px;
+    padding-left: 80px;
+    padding-bottom: 40px;
+    padding-top: 40px;
+  }
+
+  .paddingRightAndLeft {
+    padding-right: 80px;
+    padding-left: 80px;
+  }
+  .contact{
+    height: 750px;
+  }
+  .footer p{
+    text-align: center;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .paddingClass {
+    padding-right: 50px;
+    padding-left: 50px;
+    padding-bottom: 30px;
+    padding-top: 30px;
+  }
+
+  .paddingRightAndLeft {
+    padding-right: 50px;
+    padding-left: 50px;
+  }
+  .hideOnMobile{
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  .contact{
+    height: 800px;
+  }
 }

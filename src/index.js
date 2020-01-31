@@ -3,6 +3,10 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import * as serviceWorker from './serviceWorker';
+import './fonts/Exo-Black.ttf'
+import './fonts/Exo-Bold.ttf'
+import './fonts/Exo-Light.ttf'
+import './fonts/Exo-Regular.ttf'
 
 ReactDOM.render(<App />, document.getElementById('root'));
 
