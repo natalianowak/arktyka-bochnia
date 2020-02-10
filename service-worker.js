@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/arktyka-bochnia/precache-manifest.12c2ce0000e986357016e95cafbe2e0d.js"
+  "/arktyka-bochnia/precache-manifest.9816f30fd789d55ab3ecf8b59b106fa1.js"
 );
 
 self.addEventListener('message', (event) => {

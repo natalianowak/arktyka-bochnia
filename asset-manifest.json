@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/arktyka-bochnia/static/css/main.13aa0e5b.chunk.css",
-    "main.js": "/arktyka-bochnia/static/js/main.4b3db199.chunk.js",
-    "main.js.map": "/arktyka-bochnia/static/js/main.4b3db199.chunk.js.map",
+    "main.css": "/arktyka-bochnia/static/css/main.3fb71dad.chunk.css",
+    "main.js": "/arktyka-bochnia/static/js/main.d00141a8.chunk.js",
+    "main.js.map": "/arktyka-bochnia/static/js/main.d00141a8.chunk.js.map",
     "runtime-main.js": "/arktyka-bochnia/static/js/runtime-main.5ba665a7.js",
     "runtime-main.js.map": "/arktyka-bochnia/static/js/runtime-main.5ba665a7.js.map",
     "static/js/2.86bc10b9.chunk.js": "/arktyka-bochnia/static/js/2.86bc10b9.chunk.js",
     "static/js/2.86bc10b9.chunk.js.map": "/arktyka-bochnia/static/js/2.86bc10b9.chunk.js.map",
     "index.html": "/arktyka-bochnia/index.html",
-    "precache-manifest.12c2ce0000e986357016e95cafbe2e0d.js": "/arktyka-bochnia/precache-manifest.12c2ce0000e986357016e95cafbe2e0d.js",
+    "precache-manifest.9816f30fd789d55ab3ecf8b59b106fa1.js": "/arktyka-bochnia/precache-manifest.9816f30fd789d55ab3ecf8b59b106fa1.js",
     "service-worker.js": "/arktyka-bochnia/service-worker.js",
-    "static/css/main.13aa0e5b.chunk.css.map": "/arktyka-bochnia/static/css/main.13aa0e5b.chunk.css.map",
+    "static/css/main.3fb71dad.chunk.css.map": "/arktyka-bochnia/static/css/main.3fb71dad.chunk.css.map",
     "static/js/2.86bc10b9.chunk.js.LICENSE": "/arktyka-bochnia/static/js/2.86bc10b9.chunk.js.LICENSE",
     "static/media/Exo-Black.ttf": "/arktyka-bochnia/static/media/Exo-Black.00564525.ttf",
     "static/media/Exo-Bold.ttf": "/arktyka-bochnia/static/media/Exo-Bold.fd0fb607.ttf",
@@ -21,7 +21,7 @@
   "entrypoints": [
     "static/js/runtime-main.5ba665a7.js",
     "static/js/2.86bc10b9.chunk.js",
-    "static/css/main.13aa0e5b.chunk.css",
-    "static/js/main.4b3db199.chunk.js"
+    "static/css/main.3fb71dad.chunk.css",
+    "static/js/main.d00141a8.chunk.js"
   ]
 }
