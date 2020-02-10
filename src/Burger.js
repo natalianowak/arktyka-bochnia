@@ -44,11 +44,11 @@ class Burger extends React.Component {
             transition: 'filter 0.5s ease',
           },
         }
-      const menu = [<a href="#1" style={{color:'#23538a', textDecoration:'none'}}>O firmie</a>,
-      <a href="#2" style={{color:'#23538a', textDecoration:'none'}}>Oferta</a>,
-      <a href="#4" style={{color:'#23538a', textDecoration:'none'}}>Certyfikaty</a>,
-      <a href="#5" style={{color:'#23538a', textDecoration:'none'}}>Kontakt</a>,
-      <a style={{textDecoration:'none', color:"#23538a" }} href="tel:+48 510 311 682"><div style={{margin:"70px auto"}}>
+      const menu = [<a href="#1" className="blueText">O firmie</a>,
+      <a href="#2" className="blueText">Oferta</a>,
+      <a href="#4" className="blueText">Certyfikaty</a>,
+      <a href="#5" className="blueText">Kontakt</a>,
+      <a className="blueText" href="tel:+48 510 311 682"><div style={{margin:"70px auto"}}>
       <img  src="telefon-orange.png" alt="telefon"></img>
       <h3 className="contactFlex">+48 510 311 682</h3>
       </div></a>]

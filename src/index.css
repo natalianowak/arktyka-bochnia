@@ -38,6 +38,16 @@ code {
     monospace;
 }
 
+.whiteText{
+  color:white;
+  text-decoration: none;
+}
+
+.blueText{
+  color:#23538a;
+  text-decoration: none;
+}
+
 .mountain .nav {
   height: 168px;
   width: 100%;
@@ -81,6 +91,10 @@ code {
    transform: scale(1.05);
 }
 
+.nav img {
+  width: 160px;
+  padding-right:100px;
+}
 .mountain {
   display: block;
   margin: 0 auto;
@@ -232,6 +246,7 @@ code {
 .contactIcon {
   width: 25px;
   padding-right: 15px;
+  align-items:center;
 }
 
 .contactRight {

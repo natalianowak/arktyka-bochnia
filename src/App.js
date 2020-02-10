@@ -15,7 +15,7 @@ function App() {
     <div className="nav hideOnMobile">
         <ul className="navList paddingRightAndLeft wrapper">
           <li>
-            <img style={{ width: '160px', paddingRight:'100px'}} alt="arktyka-logo" src="arktyka-logo.png" /></li>
+            <img alt="arktyka-logo" src="arktyka-logo.png" /></li>
           <li><a href="#1">O firmie</a></li>
           <li>•</li>
           <li><a href="#2">Nasza oferta</a></li>
@@ -29,7 +29,7 @@ function App() {
         <h1>O firmie</h1>
         <p className="textCenterFlex">Firma arktyka działa w branży chłodnictwa, klimatyzacji i&nbsp;wentylacji.</p>
         <p className="boldText textCenterFlex">Podstawą naszej pracy są najnowsze technologie, profesjonalna obsługa oraz zadowolenie klientów.</p>
-            <p>Wieloletnie doświadczenie zdobyte w kraju i&nbsp;za granicą pozwala firmie<span style={{fontFamily:'Exo Black'}}> ARKTYKA </span>na świadczenie kompleksowych usług w&nbsp;zakresie: projektowania, doboru urządzeń, montażu i&nbsp;konserwacji instalacji oraz urządzeń chłodniczych, klimatyzacyjnych i&nbsp;wentylacyjnych.</p>
+            <p>Wieloletnie doświadczenie zdobyte w kraju i&nbsp;za granicą pozwala firmie<span className="boldText"> ARKTYKA </span>na świadczenie kompleksowych usług w&nbsp;zakresie: projektowania, doboru urządzeń, montażu i&nbsp;konserwacji instalacji oraz urządzeń chłodniczych, klimatyzacyjnych i&nbsp;wentylacyjnych.</p>
             <p className="boldText hideOnMobile textCenterFlex" >Atutami firmy Arktyka są:</p>
             <ul className="aboutList hideOnMobile">
               <li>wieloletnie doświadczenie na rynku</li>
@@ -49,26 +49,26 @@ function App() {
 
       <div className="offerBigBox">
         <div className="offerBox box foo">
-          <img style={{}} className="" src="icons8-air-conditioner-blue.png" alt="klimatyzacja"></img>
+          <img src="icons8-air-conditioner-blue.png" alt="klimatyzacja"></img>
           <p>Klimatyzacja mieszkań, obiektów biurowych i&nbsp;handlowych</p></div>
         <div className="offerBox box foo">
-          <img style={{}} className="" src="icons8-central-air-conditioning-blue.png" alt="klimatyzacjaSystemowa"></img>
+          <img src="icons8-central-air-conditioning-blue.png" alt="klimatyzacjaSystemowa"></img>
           <p>Systemy klimatyzacji kanałowej</p></div>
       </div>
       <div className="offerBigBox">
         <div className="offerBox box foo">
-          <img style={{}} className="" src="icons8-fan-blue.png" alt="wentylacja"></img>
+          <img src="icons8-fan-blue.png" alt="wentylacja"></img>
           <p>Systemy wentylacji obiektów przemysłowych</p></div>
         <div className="offerBox box foo">
-          <img style={{}} className="" src="icons8-cooling-blue.png" alt="chłodninctwo"></img>
+          <img src="icons8-cooling-blue.png" alt="chłodninctwo"></img>
           <p>Montaż lad i&nbsp;szaf chłodniczych</p></div>
       </div>
       <div className="offerBigBox">
         <div className="offerBox box foo">
-          <img style={{}} className="" src="icons8-service-blue.png" alt=""></img>
+          <img src="icons8-service-blue.png" alt="przeglądy"></img>
           <p>Przeglądy gwarancyjne i&nbsp;pogwarancyjne</p></div>
         <div className="offerBox box foo">
-          <img style={{}} className="" src="icons8-support-blue.png" alt=""></img>
+          <img src="icons8-support-blue.png" alt="naprawa urządzeń"></img>
           <p>Naprawa urządzeń</p></div>
       </div>
     </div>
@@ -89,15 +89,15 @@ function App() {
     </div>
 
     <div className="contact paddingClass" id="5">
-      <h1 style={{color:'white'}}>Kontakt</h1>
+      <h1 className="whiteText">Kontakt</h1>
       <div className="contactLeft">
         <h3 className="boldText">ARKTYKA Chłodnictwo, Klimatyzacja&nbsp;i&nbsp;Wentylacja </h3>
         <h3 className="boldText">Jacek Rębilas </h3>
         <h3 className="boldText">__________</h3>
-        <h3 className="contactFlex"><img style={{alignItems:'center'}} className="contactIcon" src="domek.png" alt="adres"></img>32-700&nbsp;Bochnia, ul.&nbsp;Łychów&nbsp;100 </h3>
-        <h3 className="contactFlex"><img style={{alignItems:'center'}} className="contactIcon" src="nipRegon.png" alt="nipRegon"></img>NIP:&nbsp;868-116-45-79, REGON:&nbsp;121378970</h3>
-        <h3 className="contactFlex"><img style={{alignItems:'center'}} className="contactIcon" src="telefon.png" alt="telefon"></img><a style={{color:'white', textDecoration:'none'}} href="tel:+48 510 311 682">+48 510 311 682</a></h3>
-        <h3 className="contactFlex"><img style={{alignItems:'center'}} className="contactIcon" src="mail.png" alt="mail"></img><a style={{color:'white', textDecoration:'none'}}
+        <h3 className="contactFlex"><img className="contactIcon" src="domek.png" alt="adres"></img>32-700&nbsp;Bochnia, ul.&nbsp;Łychów&nbsp;100 </h3>
+        <h3 className="contactFlex"><img className="contactIcon" src="nipRegon.png" alt="nipRegon"></img>NIP:&nbsp;868-116-45-79, REGON:&nbsp;121378970</h3>
+        <h3 className="contactFlex"><img className="contactIcon" src="telefon.png" alt="telefon"></img><a className="whitetext" href="tel:+48 510 311 682">+48 510 311 682</a></h3>
+        <h3 className="contactFlex"><img className="contactIcon" src="mail.png" alt="mail"></img><a className="whitetext"
                                             href="mailto:arktyka.bochnia@gmail.com">arktyka.bochnia@gmail.com</a></h3>
       </div>
       <div className="contactRight">
