@@ -43,8 +43,12 @@ const mapStyles = {
     }
 ]
 
-function MapContainer(props) {
+const onMarkerClick = () => {
+    window.location = "https://maps.google.com?q="+49.973436+","+20.456241 ;
+  }
 
+function MapContainer(props) {
+  
   console.log(Map)
     return (
         <Map
@@ -56,17 +60,14 @@ function MapContainer(props) {
           zoom={14}
           style={mapStyles}
           initialCenter={{ lat: 49.973436, lng: 20.456241}}
+          
         >
           <Marker 
           position={{ lat: 49.973436, lng: 20.456241}}
           color='blue'
           title={'ARKTYKA'}
-          
+          onClick={onMarkerClick}
           icon= {'https://raw.githubusercontent.com/natalianowak/arktyka-bochnia/master/public/arktyka-small.png'}
-//https://raw.githubusercontent.com/natalianowak/arktyka-bochnia/master/public/arktyka-favicon.png
-          // %PUBLIC_URL%/arktyka-favicon.jpg
-          //http://chart.apis.google.com/chart?chst=d_map_pin_letter&chld=%E2%80%A2|ddd
-          // https://natalianowak.github.io/portfolioN/CV%20-%20Natalia%20Nowak%20-%20ANG%20-.pdf
           />
         </Map>
 

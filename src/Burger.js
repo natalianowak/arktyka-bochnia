@@ -1,7 +1,6 @@
 import React from 'react';
 import './App.css';
 
-/* App.jsx */
 class Burger extends React.Component {
     constructor(props){
       super(props);
@@ -26,13 +25,11 @@ class Burger extends React.Component {
             top: 0,
             left: 0,
             zIndex: '99',
-            // opacity: 0.9,
             display:'flex',
             alignItems:'center',
             background: 'white',
             width: '100%',
             color: '#23538a',
-            // fontFamily:'Lobster',
           },
           logo: {
             margin: '0 auto',
@@ -51,7 +48,7 @@ class Burger extends React.Component {
       <a href="#2" style={{color:'#23538a', textDecoration:'none'}}>Oferta</a>,
       <a href="#4" style={{color:'#23538a', textDecoration:'none'}}>Certyfikaty</a>,
       <a href="#5" style={{color:'#23538a', textDecoration:'none'}}>Kontakt</a>,
-      <a style={{textDecoration:'none', color:"#23538a" }} href="tel:+48 510 311 682"><div style={{margin:"80px auto"}}>
+      <a style={{textDecoration:'none', color:"#23538a" }} href="tel:+48 510 311 682"><div style={{margin:"70px auto"}}>
       <img  src="telefon-orange.png" alt="telefon"></img>
       <h3 className="contactFlex">+48 510 311 682</h3>
       </div></a>]
@@ -67,7 +64,7 @@ class Burger extends React.Component {
         <div>
           <div style={styles.container}>
             <MenuButton open={this.state.menuOpen} onClick={()=>this.handleMenuClick()} color='#23538a'/>
-            <div style={styles.logo}><img style={{ width: '150px', padding:'20px 0'}} alt="arktyka-logo" src="arktyka-logo.png" /></div>
+            <div style={styles.logo}><img style={{ width: '150px', padding:'20px 0', marginRight: '40px'}} alt="arktyka-logo" src="arktyka-logo.png" /></div>
           </div>
           <Menu open={this.state.menuOpen}>
             {menuItems}
@@ -77,7 +74,6 @@ class Burger extends React.Component {
     }
   }
   
-  /* MenuItem.jsx*/
   class MenuItem extends React.Component{
     constructor(props){
       super(props);
@@ -135,7 +131,6 @@ class Burger extends React.Component {
     }
   }
   
-  /* Menu.jsx */
   class Menu extends React.Component {
     constructor(props){
       super(props);
@@ -161,7 +156,6 @@ class Burger extends React.Component {
           display: 'flex',
           flexDirection: 'column',
           background: 'white',
-          // opacity: 0.95,
           color: '#23538a',
           transition: 'height 0.3s ease',
           zIndex: 2,
@@ -176,11 +170,6 @@ class Burger extends React.Component {
             this.state.open?
               <div style={styles.menuList}>
                 {this.props.children}
-                {/* <a style={{textDecoration:'none', color:"#23538a" }} href="tel:+48 510 311 682"><div style={{margin:"100px auto"}}>
-                <img  src="telefon-orange.png" alt="telefon"></img>
-                <h3 className="contactFlex">+48 510 311 682</h3>
-                </div></a> */}
-               
               </div>:null
           }
         </div>
@@ -188,7 +177,6 @@ class Burger extends React.Component {
     }
   }
   
-  /* MenuButton.jsx */
   class MenuButton extends React.Component {
     constructor(props){
       super(props);
@@ -219,7 +207,6 @@ class Burger extends React.Component {
           alignItems: 'center',
           cursor: 'pointer',
           padding: '4px',
-          // paddingTop:'40px' /*???*/
         },
         line: {
           height: '2px',
@@ -254,7 +241,6 @@ class Burger extends React.Component {
     }
   }
   
-  /* Main.jsx */
   class Main extends React.Component {
     render(){
       const styles = {
