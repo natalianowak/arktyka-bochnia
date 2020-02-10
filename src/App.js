@@ -96,8 +96,8 @@ function App() {
         <h3 className="boldText">__________</h3>
         <h3 className="contactFlex"><img className="contactIcon" src="domek.png" alt="adres"></img>32-700&nbsp;Bochnia, ul.&nbsp;Łychów&nbsp;100 </h3>
         <h3 className="contactFlex"><img className="contactIcon" src="nipRegon.png" alt="nipRegon"></img>NIP:&nbsp;868-116-45-79, REGON:&nbsp;121378970</h3>
-        <h3 className="contactFlex"><img className="contactIcon" src="telefon.png" alt="telefon"></img><a className="whitetext" href="tel:+48 510 311 682">+48 510 311 682</a></h3>
-        <h3 className="contactFlex"><img className="contactIcon" src="mail.png" alt="mail"></img><a className="whitetext"
+        <h3 className="contactFlex"><img className="contactIcon" src="telefon.png" alt="telefon"></img><a className="whiteText" href="tel:+48 510 311 682">+48 510 311 682</a></h3>
+        <h3 className="contactFlex"><img className="contactIcon" src="mail.png" alt="mail"></img><a className="whiteText"
                                             href="mailto:arktyka.bochnia@gmail.com">arktyka.bochnia@gmail.com</a></h3>
       </div>
       <div className="contactRight">
